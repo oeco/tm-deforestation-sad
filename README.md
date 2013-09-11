@@ -1,6 +1,6 @@
-## Fires from Imazon SAD
+## Deforestation from Imazon SAD
 
-This is the TileMill project for the map of fires provided by Imazon SAD.
+This is the TileMill project for the map of deforestation provided by Imazon SAD.
 
 Imazon publishes monthly deforestation alerts at this page:
 
