@@ -13,11 +13,11 @@
   "format": "png",
   "interactivity": {
     "layer": "alerts",
-    "template_teaser": "<!-- deforestation -->\n\n<div class=\"tootip\">\n\t<div class=\"lang-en\">\n\t\t<h3>Deforested Areas</h3>\n\t\t<div class=\"date\"><span class=\"label\">Detection date:</span> {{{ANO}}}.{{{MES}}} </div>\n\t\t<div class=\"area\"><span class=\"label\">Area:</span> {{{area_ha}}} hectares</div>\t\n\t</div>\n\t<div class=\"lang-es\">\n\t\t<h3>Áreas deforestadas</h3>\n\t\t<div class=\"date\"><span class=\"label\">Fecha de detección:</span> {{{MES}}}.{{{ANO}}}</div>\n\t\t<div class=\"area\"><span class=\"label\">Área:</span> {{{area_ha}}} hectáreas</div>\n\t</div>\n\t<div class=\"lang-pt\">\n\t\t<h3>Áreas desmatadas</h3>\n\t\t<div class=\"date\"><span class=\"label\">Data de detecção:</span> {{{area_ha}}}.{{{MES}}}</div>\n\t\t<div class=\"area\"><span class=\"label\">Área:</span> {{{area_ha}}} hectares</div>\n\t</div>\n</div>",
+    "template_teaser": "<!-- deforestation -->\n\n<div class=\"tootip\">\n\t<div class=\"lang-en\">\n\t\t<h3>Deforested Areas</h3>\n\t\t<div class=\"date\"><span class=\"label\">Detection date:</span> {{{ANO}}}.{{{MES}}} </div>\n\t\t<div class=\"area\"><span class=\"label\">Area:</span> {{{area_ha}}} hectares</div>\t\n\t</div>\n\t<div class=\"lang-es\">\n\t\t<h3>Áreas deforestadas</h3>\n\t\t<div class=\"date\"><span class=\"label\">Fecha de detección:</span> {{{MES}}}.{{{ANO}}}</div>\n\t\t<div class=\"area\"><span class=\"label\">Área:</span> {{{area_ha}}} hectáreas</div>\n\t</div>\n\t<div class=\"lang-pt\">\n\t\t<h3>Áreas desmatadas</h3>\n\t\t<div class=\"date\"><span class=\"label\">Data de detecção:</span> {{{ANO}}}.{{{MES}}}</div>\n\t\t<div class=\"area\"><span class=\"label\">Área:</span> {{{area_ha}}} hectares</div>\n\t</div>\n</div>",
     "fields": [
-      "year",
-      "month",
-      "area"
+      "ANO",
+      "MES",
+      "area_ha"
     ]
   },
   "minzoom": 1,
@@ -30,21 +30,25 @@
     {
       "geometry": "polygon",
       "extent": [
-        -180,
-        -85.051,
-        180,
-        4.66198479982058
+        -73.18433380126953,
+        -17.806068420410156,
+        -46.36674118041992,
+        4.661984920501709
       ],
+      "Datasource": {
+        "type": "sqlite",
+        "file": "data/alerts.sqlite",
+        "table": "alerts",
+        "attachdb": "",
+        "extent": "",
+        "id": "alerts",
+        "project": "tm-deforestation-sad",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
       "id": "alerts",
       "class": "",
-      "Datasource": {
-        "file": "data/alerts.shp",
-        "id": "alerts",
-        "project": "deforestation-sad",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "alerts"
     }
