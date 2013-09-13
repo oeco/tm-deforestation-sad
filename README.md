@@ -16,7 +16,7 @@ Create a symlink to TileMill project folder:
 
     ln -s /full/path/to/repository/tm-deforestation-sad ~/Documents/MapBox/project
 
-Run `./generate.sh`.
+Run `./regenerate.sh`.
 
 
 
