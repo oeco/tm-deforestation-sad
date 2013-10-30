@@ -14,7 +14,7 @@ Clone this repository locally:
 
 Create a symlink to TileMill project folder:
 
-    ln -s /full/path/to/repository/tm-deforestation-sad ~/Documents/MapBox/project
+    ln -s /full/path/to/repository/tm-deforestation-sad ~/Documents/MapBox/project/tm-deforestation-sad
 
 Run `./regenerate.sh`.
 
