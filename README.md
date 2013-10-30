@@ -6,6 +6,8 @@ Imazon publishes monthly deforestation alerts at this page:
 
 http://www.imazongeo.org.br/doc/downloads.php
 
+This repository contains a script that regenerate all data needed for the map. 
+
 ### Requirements
 
 * Tilemill
