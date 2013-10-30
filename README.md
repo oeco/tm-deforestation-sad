@@ -6,6 +6,16 @@ Imazon publishes monthly deforestation alerts at this page:
 
 http://www.imazongeo.org.br/doc/downloads.php
 
+### Requirements
+
+* Tilemill
+* Spatialite
+
+```
+    # linux install
+    sudo apt-get install spatialite-bin
+```
+
 ### How to update the map
 
 Clone this repository locally:
@@ -16,8 +26,13 @@ Create a symlink to TileMill project folder:
 
     ln -s /full/path/to/repository/tm-deforestation-sad ~/Documents/MapBox/project/tm-deforestation-sad
 
-Run `./regenerate.sh`.
+Run `./regenerate.sh` to generate map data.
 
+### Layer configuration
 
+When exporting the map from TileMill, you should use the following configs to show the map properly at Infoamazonia.org: 
 
-
+* Name: Deforestation data from Imazon SAD
+* Zoom level: 5 to 13
+* Center: (-59.8755l,-6.5773,6)
+* Map bounds: -74.6191, -17.8951, -45.835, 4.6531
