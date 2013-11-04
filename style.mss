@@ -15,5 +15,9 @@
   [ANO=2010] {polygon-opacity:0.7;} 
   [ANO=2011] {polygon-opacity:0.9;}  
   [ANO=2012] {polygon-opacity:1;}
-  [ANO=2013] {line-color:#CC5E1E;polygon-fill:#CC5E1E;polygon-opacity:0.8;} 
+  [ANO=2013] {
+    line-color:#CC5E1E;
+    polygon-fill:#CC5E1E;
+    polygon-opacity:0.8;
+  } 
 }
