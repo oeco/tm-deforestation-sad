@@ -20,6 +20,12 @@ spatialite data/alerts.sqlite < sql/parse-2007.sql
 # # Import 2008-2013
 for file in data/sources-expanded/imazon_sad_desmatamento_*.shp
 do
+
+	# Left just in case we need to filter by filename
+	# if [[ $filename < "imazon_sad_desmatamento_2014-04_amazonia.shp" ]]; then
+	# 	spatialite_tool -i -shp ${file%.*} -d data/alerts.sqlite -t temp -c UTF-8 -s 4326 -g Geometry
+	# fi
+
 	echo "Processing $file..."
 	spatialite_tool -i -shp ${file%.*} -d data/alerts.sqlite -t temp -c UTF-8 -s 4326 -g Geometry
 	spatialite data/alerts.sqlite < sql/parse-2008-2013.sql
