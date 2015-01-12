@@ -19,5 +19,15 @@
     line-color:#CC5E1E;
     polygon-fill:#CC5E1E;
     polygon-opacity:0.8;
-  } 
+  }
+  [ANO=2014]{
+    line-color:#DE000F;
+    polygon-fill:#DE000F;
+    polygon-opacity:0.8;
+  }
+  [ANO=2015]{
+  	line-color:#DE000F;
+    polygon-fill:#DE000F;
+    polygon-opacity:0.9;
+  }
 }
