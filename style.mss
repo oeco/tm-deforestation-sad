@@ -23,7 +23,7 @@
   [ANO=2014]{
     line-color:#DE000F;
     polygon-fill:#DE000F;
-    polygon-opacity:0.8;
+    polygon-opacity:0.7;
   }
   [ANO=2015]{
   	line-color:#DE000F;

@@ -2,6 +2,7 @@
 
 # Download source files
 wget -r -nd -A "imazon_sad_desmatamento*.zip" -P data/sources http://www.imazongeo.org.br/doc/downloads.php
+wget -r -nd -P data/sources http://www.imazongeo.org.br/downloads/imazon_sad_desmatamento_2015-06_amazonia.zip 
 
 # The shapefile for 2009/01 is broken, delete it
 rm data/sources/imazon_sad_desmatamento_2009-01_amazonia.zip
