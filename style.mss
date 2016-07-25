@@ -16,16 +16,21 @@
   [ANO=2011] {polygon-opacity:0.9;}  
   [ANO=2012] {polygon-opacity:1;}
   [ANO=2013] {
-    line-color:#CC5E1E;
-    polygon-fill:#CC5E1E;
-    polygon-opacity:0.8;
-  }
-  [ANO=2014]{
-    line-color:#DE000F;
-    polygon-fill:#DE000F;
+    line-color:#d54701;
+    polygon-fill:#d54701;
     polygon-opacity:0.7;
   }
+  [ANO=2014]{
+    line-color:#d54701;
+    polygon-fill:#d54701;
+    polygon-opacity:0.8;
+  }
   [ANO=2015]{
+  	line-color:#d54701;
+    polygon-fill:#d54701;
+    polygon-opacity:0.9;
+  }
+  [ANO=2016]{
   	line-color:#DE000F;
     polygon-fill:#DE000F;
     polygon-opacity:0.9;
